@@ -5,8 +5,22 @@ Class rectangle
 
 
 class Rectangle:
+  """class Rectangle that defines a rectangle figure
+
+    Attributes:
+        empty
+    """
 
     def __init__(self, width=0, height=0):
+	 """
+        Init method for Rectangle
+
+        Attributes:
+            width (int, optional): The width of the rectangle
+            height (int, optional): The height of the rectangle
+        self.width = width
+        self.height = height
+        """
 
         self.width = width
         self.height = height
